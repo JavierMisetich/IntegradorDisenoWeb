@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* header */
+.header {
+  display: flex;
+  height: 6rem;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: radial-gradient(#0096a4, black);
+  margin-top: 1rem;
+  box-shadow: 0 0 20px #14c5d7;
+  position: relative;
+}
+
+#logo,
+#logo-img {
+  width: 5rem;
+  margin-top: 0.2rem;
+  margin-left: 3rem;
+  padding: 0.2rem;
+}
+
+#title {
+  display: flex;
+  margin-left: 32rem;
+}
+
+.open-menu, .close-menu{
+  display: none;
+}
+
+#nav,
+ol,
+li,
+a {
+  width: 30%;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem;
+  height: 2rem;
+  color: #14c5d7;
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 15px black;
+
+}
+
+body {
+  background-color: black;
+}
+
+/* main */
+
+/*hero-section*/
+.hero-section {
+  display: flex;
+  width: 70%;
+  height: 25rem;
+  flex-direction: row;
+  padding: 1rem;
+  margin-left: 18rem;
+  box-shadow: 0 0 20px #14c5d7;
+  background: radial-gradient(#00616f, black);
+  border-radius: 10rem;
+  margin-top: 2rem;
+  text-shadow: rgb(20, 197, 215) 0px 0px 15px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#h2-hero {
+  width: 25rem;
+  text-align: center;
+  text-shadow: 0 0px 10px black;
+  padding: 1.5rem;
+  color: #14c5d7;
+}
+
+#h3-hero {
+  width: 25rem;
+  text-align: center;
+  text-shadow: 0 0px 10px black;
+  padding: 1.5rem;
+  color: #14c5d7;
+  font-size: 21px;
+}
+
+/* cards-section */
+.cards-section {
+  display: flex;
+  width: 70%;
+  height: 25rem;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 1rem;
+  margin-left: 18rem;
+  background: radial-gradient(#00616f, black);
+  border-radius: 10rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 20px #14c5d7;
+
+}
+
+#anime-card,
+#figures-card,
+#merchandise-card {
+  width: 16rem;
+  color: rgb(20, 197, 215);
+  text-shadow: 0 0 black;
+}
+
+#anime-img {
+  height: 14rem;
+}
+
+#anime-img,
+#figure-img,
+#merc-img {
+  padding: 0.5rem;
+  width: 15rem;
+}
+
+#h2-anime,
+#h2-figure,
+#h2-merc {
+  padding: 0.5rem;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Benefits-Section */
+.benefits-section {
+  display: flex;
+  width: 70%;
+  height: 25rem;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 1rem;
+  margin-left: 18rem;
+  background: radial-gradient(#00616f, black);
+  border-radius: 10rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 20px #14c5d7;
+}
+
+#h2-benefits {
+  width: 16rem;
+  text-align: center;
+  margin-left: 2rem;
+  text-shadow: 0px 0px 15px black;
+  padding: 1rem;
+  font-size: 14px;
+  color: #14c5d7;
+}
+
+#benefits-img {
+  width: 20rem;
+}
+
+#benefit-one {
+  width: 15rem;
+  text-align: center;
+  /*background-color: #14c5d7;*/
+  padding: 1rem;
+  color: #14c5d7;
+  text-shadow: 0px 0px 15px black;
+
+}
+
+#benefit-two {
+  width: 15rem;
+  text-align: center;
+  /*background-color: #14c5d7;*/
+  padding: 1rem;
+  margin-top: 5rem;
+  color: #14c5d7;
+  text-shadow: 0px 0px 15px black;
+}
+
+/* Contact-Section*/
+.contact-section {
+  display: flex;
+  width: 70%;
+  height: 25rem;
+  flex-direction: row;
+  padding: 1rem;
+  margin-left: 18rem;
+  box-shadow: 0 0 20px #14c5d7;
+  background: radial-gradient(#00616f, black);
+  border-radius: 10rem;
+  margin-top: 2rem;
+  text-shadow: rgb(20, 197, 215) 0px 0px 15px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#mi-ja,
+ul,
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 4rem;
+  padding: 0.5rem;
+  font-size: 16px;
+  justify-content: space-around;
+  width: 20rem;
+}
+
+.redes {
+  display: flex;
+  height: 6rem;
+  width: 15rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 15rem;
+}
+
+#contact-face {
+  width: 4rem;
+}
+
+#contact-insta {
+  width: 5rem;
+}
+
+#contact-gmail {
+  width: 4rem;
+}
+#contact-img {
+  width: 15rem;
+  border-radius: 10rem;
+}
+
+/* Inicio sesion*/
+
+.inicio-sesion{
+  display: flex;
+  width: 20rem;
+  height: 20rem;
+  padding: 5rem;
+  background: radial-gradient(#00616f, black);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 45rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  color: #14c5d7 ;
+  text-shadow: rgb(20, 197, 215) 0px 0px 15px;
+
+}
+/* Registro */
+
+.form-register {
+  width: 25rem;
+  background: radial-gradient(#00616f, black);
+  padding: 2rem;
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 15rem;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: #14c5d7;
+  text-shadow: rgb(20, 197, 215) 0px 0px 15px;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0096a4;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 45px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.form-register a {
+  color: #14c5d7;
+  text-shadow: rgb(20, 197, 215) 0px 0px 15px;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: #14c5d7;
+  text-shadow: rgb(20, 197, 215) 0px 0px 15px;
+
+  text-decoration: underline;
+}
+
+.form-register .botons, #ingresar {
+  width: 100%;
+  background: #0096a4;
+  border-radius: 4rem;
+  padding: 12px;
+  color: black;
+  margin: 16px 0;
+  font-size: 16px;
+}
+#ya-tengocuenta,#terminos-condiciones,p{
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/* MEDIA QUERIES */
+
+@media screen and ( max-width:992px) {
+  header{
+    width: 100%;
+  }
+  #title{
+    width: 6vw;
+    height: 10rem;
+    margin-left: 10rem;  }
+  
+    .open-menu{
+      display: block;
+    }
+    .close-menu{
+      display: block;
+    }
+  #nav{
+    display: none;
+
+  }
+  #nav{
+    opacity: 0;
+    visibility: visible;
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:radial-gradient( #00616f, black ) ;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax #14c5d7 ;
+  }
+  .nav-list{
+    flex-direction: column;
+    align-items: end;
+  }
+}
